@@ -1,7 +1,7 @@
 {
   "name": "redux-todos-example",
   "version": "0.0.0",
-  "description": "Redux Todos example",
+  "description": "Responsive-Web-Design",
   "scripts": {
     "start": "node server.js",
     "test": "cross-env NODE_ENV=test mocha --recursive --compilers js:babel-register --require ./test/setup.js",
