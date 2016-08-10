@@ -1,5 +1,6 @@
 /*basic style*/
 @import '../node_modules/compass-mixins/lib/compass/reset';
+@import '../node_modules/compass-mixins/lib/compass/css3';
 
 
 html {
@@ -23,3 +24,34 @@ p {
 }
 
 /*custom style*/
+
+#css-zen-garden {
+	width: 80%;
+	margin: auto;
+}
+
+.supporting {
+	float: left;
+}
+
+.sidebar {
+	float: left;
+}
+
+
+/*responsive style*/
+
+@media (min-width: 1200px) {
+	.supporting {
+		width: 70%;
+		margin: auto;
+	}
+	.sidebar {
+		width: 30%;
+		margin: auto;
+	}
+	.wrapper {
+	width: 70%;
+	margin: auto;
+	}
+}
